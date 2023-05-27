@@ -112,7 +112,7 @@ body {
 }
 
 
-/* this is the oart we added, i like the content: attr(), pretty neat as the attr is used instead of rewriting html to label */
+/* this is the part we added, i like the content: attr(), pretty neat as the attr is used instead of rewriting html to label */
 .btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
