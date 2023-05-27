@@ -111,6 +111,8 @@ body {
     transition: all 0.5s;
 }
 
+
+/* this is the oart we added, i like the content: attr(), pretty neat as the attr is used instead of rewriting html to label */
 .btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
